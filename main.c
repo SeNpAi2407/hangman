@@ -17,4 +17,8 @@ int main() {
     char resalt[30];
     get_guessed_word("container", "arpstxgoieyu", resalt);
     printf("%s\n", resalt);  // Выведет: "_o_tai_er"
+    char result[30];
+    get_available_letters("arpstxgoieyu", result);
+    printf("%s\n", result);
+    return 0;
 }
